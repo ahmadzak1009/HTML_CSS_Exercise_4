@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("images/main_bg.gif") no-repeat fixed;
+  margin-top: 10px;
+}
+
+#wrapper {
+  width: 900px;
+  margin: auto;
+}
+
+#wrapper #header {
+  background: url("images/steve-jobs-face.jpg") no-repeat right black;
+  background-size: 85%;
+  width: 100%;
+  height: 200px;
+}
+
+#wrapper #header img {
+  height: 100%;
+  margin-left: 10px;
+}
+
+#wrapper #menu {
+  background: black;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+#wrapper #menu ul {
+  list-style: none;
+}
+
+#wrapper #menu ul li {
+  float: left;
+  border: 1px solid black;
+}
+
+#wrapper #menu ul li a {
+  cursor: pointer;
+  padding: 6px 64px;
+  text-decoration: none;
+  line-height: 29px;
+  color: azure;
+  font-weight: bold;
+}
+
+#wrapper #menu ul li a:hover {
+  color: black;
+  background: white;
+}
+
+#wrapper #content {
+  width: 100%;
+}
+
+#wrapper #content #content_left {
+  width: 320px;
+  margin-right: 10px;
+  float: left;
+}
+
+.content_left_item {
+  background: white;
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.content_left_item img {
+  width: 100%;
+}
+
+.content_left_header {
+  text-align: center;
+  width: 100%;
+  background: black;
+  color: azure;
+  font-size: 18px;
+  padding: 7px;
+}
+
+.content_left_item img.img-profile {
+  width: 160px;
+  margin-right: 5px;
+  float: left;
+}
+
+#profile ul {
+  list-style: none;
+}
+
+#profile ul li {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-bottom: 1px solid black;
+}
+
+#wrapper #content #content_right {
+  float: right;
+  width: 570px;
+  padding: 10px;
+  background: white;
+}
+
+.content_right_item h2 {
+  margin-bottom: 10px;
+}
+
+.content_right_item p {
+  text-align: justify;
+}
+
+.content_right_item img {
+  width: 40%;
+  float: left;
+  margin-right: 10px;
+}
+
+.divider {
+  margin: 20px 0px;
+}
+
+#wrapper #footer {
+  clear: both;
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
